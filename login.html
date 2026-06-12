@@ -2,64 +2,164 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Nike</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="header">
+<!-- HEADER -->
+<header class="header">
 
-    <div class="logo">
-        <img src="img/nike_logo.svg" alt="">
+    <div class="container header-container">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/nike_logo.svg" alt="Nike">
+            </a>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+
+                <li>
+                    <a href="index.html">New & Featured</a>
+                </li>
+
+                <li>
+                    <a href="NikeShop.html#men">Men</a>
+                </li>
+
+                <li>
+                    <a href="NikeShop.html#women">Women</a>
+                </li>
+
+                <li>
+                    <a href="#">Kids</a>
+                </li>
+
+                <li>
+                    <a href="#">Sale</a>
+                </li>
+
+                <li>
+                    <a href="login.html" class="login-link">
+                        SNKRS
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="header-right">
+
+            <div class="search">
+
+                <span>🔍</span>
+
+                <input type="text" placeholder="Search">
+
+            </div>
+
+            <div class="icons">
+
+                <span>❤️</span>
+
+                <span>💼</span>
+
+            </div>
+
+        </div>
+
     </div>
-
-    <nav class="nav">
-
-        <ul class="nav__list">
-
-            <li>New & Featured</li>
-            <li>Men</li>
-            <li>Women</li>
-            <li>Kids</li>
-            <li>Sale</li>
-
-            <li>
-                <a href="login.html" class="login-link">
-                    SNKRS
-                </a>
-            </li>
-
-            <li>
-                <a href="index.html" class="hero-link">
-                    ⬅ Back
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="search">
-    <input type="text" placeholder="Search">
-    <span>🔍</span>
-    <span>❤️</span>
-    <span>💼</span>
-</div>
 
 </header>
 
+<!-- LOGIN -->
 <section class="login-section">
-    <div class="login-box">
-        <h2>YOUR ACCOUNT<br>FOR EVERYTHING NIKE</h2>
 
-        <input type="email" placeholder="Email address">
-        <input type="password" placeholder="Password">
+    <div class="container">
 
-        <label><input type="checkbox"> Keep me signed in</label>
+        <div class="login-box">
 
-        <div class="SignIn">
-            <button>SIGN IN</button>
+            <h2>
+                YOUR ACCOUNT<br>
+                FOR EVERYTHING NIKE
+            </h2>
+
+            <input type="email" placeholder="Email address">
+
+            <input type="password" placeholder="Password">
+
+            <label>
+
+                <input type="checkbox">
+
+                Keep me signed in
+
+            </label>
+
+            <div class="SignIn">
+
+                <button>
+                    SIGN IN
+                </button>
+
+            </div>
+
         </div>
+
     </div>
+
 </section>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container">
+
+        <div class="footer">
+
+            <div>
+
+                <h4>FIND A STORE</h4>
+
+                <p>BECOME A MEMBER</p>
+                <p>SIGN UP FOR EMAIL</p>
+                <p>SEND US FEEDBACK</p>
+                <p>STUDENT DISCOUNTS</p>
+
+            </div>
+
+            <div>
+
+                <h4>GET HELP</h4>
+
+                <p>ORDER STATUS</p>
+                <p>DELIVERY</p>
+                <p>RETURNS</p>
+                <p>PAYMENT OPTIONS</p>
+                <p>CONTACT US</p>
+
+            </div>
+
+            <div>
+
+                <h4>ABOUT NIKE</h4>
+
+                <p>NEWS</p>
+                <p>CAREERS</p>
+                <p>INVESTORS</p>
+                <p>SUSTAINABILITY</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
